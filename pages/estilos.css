@@ -1,307 +1,312 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-
-header{
-    height: 80px;
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 25px;
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-header aside img{
-    height: 100%;
+header {
+  height: 80px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header ul{
-    list-style: none;
-}
-header ul li{
-    display: inline-block;
-}
-header a{
-    color: black;
-    text-decoration: none;
-text-transform: capitalize;
-text-shadow: 0 0 1px turquoise;
-}
-header a:hover{
-    color: black;
+header aside img {
+  height: 100%;
 }
 
-.main{
-    height: 600px;
-    width: 100%;
-    flex-wrap: wrap;
-    background-color: #333;
-    background-image: url(img/dental-lab-g58a353697_1920.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-
-}
-.call{
-    width: 70%;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 40px;
-    display:flex;
-    border-radius: 40px;
-    border: 4px solid turquoise;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    height:40%;
-    
-
-}
-h1{
-    color: black;
-    font-size: 55px;
-    margin-bottom: 20px;
-    text-shadow: 0 0 5px #333;
-}
-.call p{
-    margin-bottom: 40px;
-}
-h2{
-
-    padding: 20px;
-}
-.call a{
-    background-color: black;
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-    border: 4px solid turquoise;
-    font-family: s;
-
-
-}
-.call2{
-    width: 80%;
-    position:fixed;
-    top: 100px;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding:3px;
-    display:inline-table;
-    border-radius: 40px;
-    border: 4px solid turquoise;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    height:90%;
-}
-.call2 p{
-    
-}
-section{
-    height:auto;
-    
-    display: flex;
-    flex-direction:row;
-    
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 30px;  
-
+header ul {
+  list-style: none;
 }
 
-    
-
-.card{
-    height: 400px;
-    width: 250px;
-    background-color: #333;
-    border: 4px solid turquoise;
-    background-position: center;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 2);
-    
-}
-.card img{
-    height: 200px;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-
-}
-.card-title{
-    color: turquoise;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    text-shadow:0px 1px 10px rgba(0, 0, 0, 2);
-
-}
-.card-desc{
-    margin-bottom: 30px;
-}
-.card a{
-    background-color: turquoise;
-    color: #000;
-    text-decoration: none;
-    padding: 10px 20px;
-    
-}
-.card{
-    width: 100%;
-    margin: 20px;
-    border-radius: 6px;
-    overflow: hidden;
-    background: #fff;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 2);
-    cursor: default;
-    transition: all 400ms ease; 
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-
-.card:hover{
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 4);
-    transform: translatey(-3%);
-}
-.card img{
-    width: 100%;
-    height: 210px;
-}
-.card .contenido{
-    padding: 15px;
-    text-align: center;
-
-}
-.card .contenido p{
-    line-height: 1.5;
-    color: #6a6a6a;
-}
-.card .contenido h3{
-    font-weight: 400;
-    margin-bottom: 15px;
-}
-.card .contenido a{
-    text-decoration: none;
-    display: flex;
-    padding: 10px;
-    margin: 10px;
-    color: turquoise;
-    border: 1px solid green;
-    border-radius: 4px;
-    transition: all 400ms ease;
-}
-.card .contenido a:hover{
-    background: green;
-    color: #fff;
-    
-}
-.subir{
-
-    height: 40px;
-    width: 40px;
-    background-color: turquoise;
-    color: #fff;
-    position: fixed;
-    right: 40px;
-    bottom: 40px;
-    font-size: 25px;
-    line-height: 40px;
-    text-align: center;
-    box-shadow: 0 0 5px #fff;
-    
-}
-footer{
-    background-color: #111;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.redes{
-    color: turquoise;
-    font-size: 50px;
-    letter-spacing: 20px;
-
-}
-.logo span{
-    color: aqua;
-    box-shadow: 0px 1px 10px white
-}
-div{
-    flex-wrap: wrap;
-    display: flex;
-}
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+header ul li {
+  display: inline-block;
 }
 
-.galeria{
-    display: grid;
-    /* height: 600px; */
-    width: 100%;
-    background-color: turquoise;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 180px);
-    grid-template-areas: "img1 img2 img3 img3"
-                        "img1 img4 img5 img6"
-                        "img7 img4 img8 img8";
-    grid-gap: 15px;
-    padding: 15px;
-    
+header a {
+  color: black;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-shadow: 0 0 1px turquoise;
 }
 
-.item{
-    border: 2px solid #000;
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px;
-    filter: grayscale(100%);
-    transition: all 0.9s;
-}
-.item:hover{
-    filter: grayscale(0%);
-    transform: scale(1.08);
-}
-.item1{
-    background-image: url(img/4b49c4e3-4ca2-4a77-a2ef-9f06a16991c4.jpeg);
-    grid-area: img1;
-}
-.item2{
-    background-image: url(img/dental-lab-g58a353697_1920.jpg);
-    grid-area: img2;
-}
-.item3{
-    background-image: url(img/sss.jpeg);
-    grid-area: img3;
+header a:hover {
+  color: black;
 }
 
-.item4{
-    background-image: url(img/f027e678-f494-4391-a00c-82bd5e88419a.jpeg);
-    grid-area: img4;
+.main {
+  height: 600px;
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: #333;
+  background-image: url(img/dental-lab-g58a353697_1920.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
-.item5{
-    background-image: url(img/modelo-de-mandíbula-dental-sobre-fondo-azul-odontólogo-dientes-protésicos-encías-cerradas-268829966.webp);
-    grid-area: img5;
+.call {
+  width: 70%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  display: flex;
+  border-radius: 40px;
+  border: 4px solid turquoise;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 40%;
 }
 
-.item6{
-    background-image: url(img/WhatsApp\ Image\ 2023-07-30\ at\ 9.34.36\ PM.jpeg);
-    grid-area: img6;
+h1 {
+  color: black;
+  font-size: 55px;
+  margin-bottom: 20px;
+  text-shadow: 0 0 5px #333;
 }
 
-.item7{
-    background-image: url(img/f027e678-f494-4391-a00c-82bd5e88419a.jpeg);
-    grid-area: img7;
+.call p {
+  margin-bottom: 40px;
 }
 
-.item8{
-    background-image: url(img/cc2530ff-ce9f-4529-ada3-f6ca188773e8.jpeg);
-    grid-area: img8;
+h2 {
+  padding: 20px;
 }
 
+.call a {
+  background-color: black;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 4px solid turquoise;
+  font-family: s;
+}
 
+.call2 {
+  width: 80%;
+  position: fixed;
+  top: 100px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 3px;
+  display: inline-table;
+  border-radius: 40px;
+  border: 4px solid turquoise;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 90%;
+}
+
+section {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px;
+}
+
+.card {
+  height: 400px;
+  width: 250px;
+  background-color: #333;
+  border: 4px solid turquoise;
+  background-position: center;
+  box-shadow: 0px 1px 10px rgb(0, 0, 0);
+}
+
+.card img {
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-title {
+  color: turquoise;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-shadow: 0px 1px 10px rgb(0, 0, 0);
+}
+
+.card-desc {
+  margin-bottom: 30px;
+}
+
+.card a {
+  background-color: turquoise;
+  color: #000;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.card {
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgb(0, 0, 0);
+  cursor: default;
+  transition: all 400ms ease;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgb(0, 0, 0);
+  transform: translatey(-3%);
+}
+
+.card img {
+  width: 100%;
+  height: 210px;
+}
+
+.card .contenido {
+  padding: 15px;
+  text-align: center;
+}
+
+.card .contenido p {
+  line-height: 1.5;
+  color: #6a6a6a;
+}
+
+.card .contenido h3 {
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.card .contenido a {
+  text-decoration: none;
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  color: turquoise;
+  border: 1px solid green;
+  border-radius: 4px;
+  transition: all 400ms ease;
+}
+
+.card .contenido a:hover {
+  background: green;
+  color: #fff;
+}
+
+.subir {
+  height: 40px;
+  width: 40px;
+  background-color: turquoise;
+  color: #fff;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  font-size: 25px;
+  line-height: 40px;
+  text-align: center;
+  box-shadow: 0 0 5px #fff;
+}
+
+footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.redes {
+  color: turquoise;
+  font-size: 50px;
+  letter-spacing: 20px;
+}
+
+.logo span {
+  color: aqua;
+  box-shadow: 0px 1px 10px white;
+}
+
+div {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.galeria {
+  display: grid;
+  /* height: 600px; */
+  width: 100%;
+  background-color: turquoise;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 180px);
+  grid-template-areas: "img1 img2 img3 img3" "img1 img4 img5 img6" "img7 img4 img8 img8";
+  grid-gap: 15px;
+  padding: 15px;
+}
+
+.item {
+  border: 2px solid #000;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  filter: grayscale(100%);
+  transition: all 0.9s;
+}
+
+.item:hover {
+  filter: grayscale(0%);
+  transform: scale(1.08);
+}
+
+.item1 {
+  background-image: url(img/4b49c4e3-4ca2-4a77-a2ef-9f06a16991c4.jpeg);
+  grid-area: img1;
+}
+
+.item2 {
+  background-image: url(img/dental-lab-g58a353697_1920.jpg);
+  grid-area: img2;
+}
+
+.item3 {
+  background-image: url(img/sss.jpeg);
+  grid-area: img3;
+}
+
+.item4 {
+  background-image: url(img/f027e678-f494-4391-a00c-82bd5e88419a.jpeg);
+  grid-area: img4;
+}
+
+.item5 {
+  background-image: url(img/modelo-de-mandíbula-dental-sobre-fondo-azul-odontólogo-dientes-protésicos-encías-cerradas-268829966.webp);
+  grid-area: img5;
+}
+
+.item6 {
+  background-image: url(img/WhatsApp\ Image\ 2023-07-30\ at\ 9.34.36\ PM.jpeg);
+  grid-area: img6;
+}
+
+.item7 {
+  background-image: url(img/f027e678-f494-4391-a00c-82bd5e88419a.jpeg);
+  grid-area: img7;
+}
+
+.item8 {
+  background-image: url(img/cc2530ff-ce9f-4529-ada3-f6ca188773e8.jpeg);
+  grid-area: img8;
+}
+
+/*# sourceMappingURL=estilos.css.map */

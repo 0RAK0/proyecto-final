@@ -44,7 +44,7 @@ header a:hover {
   width: 100%;
   flex-wrap: wrap;
   background-color: #333;
-  background-image: url(img/dental-lab-g58a353697_1920.jpg);
+  background-image: url(/img/dental-lab-g58a353697_1920.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -270,43 +270,47 @@ div {
 }
 
 .item1 {
-  background-image: url(img/4b49c4e3-4ca2-4a77-a2ef-9f06a16991c4.jpeg);
+  background-image: url(/img/4b49c4e3-4ca2-4a77-a2ef-9f06a16991c4.jpeg);
   grid-area: img1;
 }
 
 .item2 {
-  background-image: url(img/dental-lab-g58a353697_1920.jpg);
+  background-image: url(/img/dental-lab-g58a353697_1920.jpg);
   grid-area: img2;
 }
 
 .item3 {
-  background-image: url(img/sss.jpeg);
+  background-image: url(/img/sss.jpeg);
   grid-area: img3;
 }
 
 .item4 {
-  background-image: url(img/f027e678-f494-4391-a00c-82bd5e88419a.jpeg);
+  background-image: url(/img/f027e678-f494-4391-a00c-82bd5e88419a.jpeg);
   grid-area: img4;
 }
 
 .item5 {
-  background-image: url(img/modelo-de-mandíbula-dental-sobre-fondo-azul-odontólogo-dientes-protésicos-encías-cerradas-268829966.webp);
+  background-image: url(/img/modelo-de-mandíbula-dental-sobre-fondo-azul-odontólogo-dientes-protésicos-encías-cerradas-268829966.webp);
   grid-area: img5;
 }
 
 .item6 {
-  background-image: url(img/WhatsApp\ Image\ 2023-07-30\ at\ 9.34.36\ PM.jpeg);
+  background-image: url(/img/WhatsApp\ Image\ 2023-07-30\ at\ 9.34.36\ PM.jpeg);
   grid-area: img6;
 }
 
 .item7 {
-  background-image: url(img/f027e678-f494-4391-a00c-82bd5e88419a.jpeg);
+  background-image: url(/img/f027e678-f494-4391-a00c-82bd5e88419a.jpeg);
   grid-area: img7;
 }
 
 .item8 {
-  background-image: url(img/cc2530ff-ce9f-4529-ada3-f6ca188773e8.jpeg);
+  background-image: url(/img/cc2530ff-ce9f-4529-ada3-f6ca188773e8.jpeg);
   grid-area: img8;
 }
 
-/*# sourceMappingURL=estilos.css.map */
+@media screen and (max-width: 480px){
+    h2{
+      background-color: darkred;
+    }
+}

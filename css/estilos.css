@@ -311,11 +311,8 @@ div {
   grid-area: img8;
 }
 
-@media screen and (max-width: 480px){
-    h2{
-      background-color: darkred;
-    }
-}
+
+
 @media (max-width: 800px){
   #central{
     flex-direction: column;
